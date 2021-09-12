@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A&J</title>
+        <meta name= "description" content= "Página da A&J">
+        <meta name= "keywords" content= "emprego, acessibilidade, comunidade">
+
+        <!--
+          <link rel="stylesheet" href="css/style.css">  
+        -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <script type="text/javascript">
+        function Aviso(msg){
+            alert(msg);
+        }
+        </script>
+    </head>
+    <body">
+
+        <center>
+            <h1>Coleta de dados</h1>
+            <h3>Insira as informações nos campos abaixo:</h3>
+
+            <img id="imagem-header" src="https://media.discordapp.net/attachments/884228363701592077/885336117539397672/16311509617400.png?width=406&height=406" alt="imagem" width="250px">
+            <br>
+            <br>
+            <br>
+
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfhm8XfBexA8Ey7t65u8hbuntOMVV0de0jb53yHfqByEjw6_Q/formResponse" method="GET" class="">
+                Cidade
+                <input name="entry.1569113279" type="text" placeholder="ex.: Cidade, Estado">
+                <br>
+                entidades entrevistadas
+                <input name="entry.995434963" type="text" placeholder="ex.: APAE, escola x">
+                <br>
+                dados recolhidos
+                <input name="entry.118717527" type="text" placeholder="1- x, 2- 152">
+                <br>
+                relatório da pesquisa
+                <input name="entry.1031073606" type="text" placeholder="descreva o processo">
+                <br><br>
+                <input onclick="Aviso('Dados armazenados com sucesso') " type="submit" class="btn btn-outline-primary" value="Enviar">
+                <input onclick="Aviso('Campos limpos com sucesso') " type="reset" class="btn btn-outline-secondary" value="limpar campos">
+                <br><br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhm8XfBexA8Ey7t65u8hbuntOMVV0de0jb53yHfqByEjw6_Q/viewanalytics">Ver dados</a>
+            </form>
+    
+
+</body>
+</html>
