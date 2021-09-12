@@ -1,0 +1,43 @@
+
+body {
+   background-color: rgb(255, 255, 255);
+    }
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: rgb(104, 104, 104);
+    font-size: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+*/
+
+.logotipo{
+    width: 100pxpx;
+}
+
+.icone-header {
+    width: 100px;
+    border-radius: 50px;
+}
+
+#imagem-header {
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+
+
+  
+  
+                
